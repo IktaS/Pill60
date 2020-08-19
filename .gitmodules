@@ -10,3 +10,12 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components
+[submodule "KiCad-SSD1306_OLED-0.91-128x32"]
+	path = KiCad-SSD1306_OLED-0.91-128x32
+	url = https://github.com/MichMich/KiCad-SSD1306_OLED-0.91-128x32
+[submodule "ProMicroKiCad"]
+	path = ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad.git
+[submodule "kicad-library"]
+	path = kicad-library
+	url = https://github.com/tomaskovacik/kicad-library.git
