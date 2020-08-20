@@ -7,3 +7,5 @@ This 60% keyboard that uses BluePill or STM32F103C8T6. Any feedback is appreciat
 ![Front Side view](./images/FrontSide.png)
 ![Back Side view](./images/BackSide.png)
 ![Wire view](./images/Wires.png)
+![PCB Front view](./images/PCBFront.png)
+![PCB Back view](./images/PCBBack.png)
