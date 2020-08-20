@@ -652,10 +652,10 @@ F 3 "" H 8625 5175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED 15MXRCTRL1
+L MX_Alps_Hybrid:MX-NoLED 15MXLCTRL1
 U 1 1 5F544C28
 P 2650 7600
-F 0 "15MXRCTRL1" H 2683 7823 60  0000 C CNN
+F 0 "15MXLCTRL1" H 2683 7823 60  0000 C CNN
 F 1 "MX-NoLED" H 2683 7749 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 2025 7575 60  0001 C CNN
 F 3 "" H 2025 7575 60  0001 C CNN
@@ -756,7 +756,7 @@ U 1 1 5F54D143
 P 5550 7600
 F 0 "6MXSPC1" H 5583 7823 60  0000 C CNN
 F 1 "MX-NoLED" H 5583 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6U-Centered-ReversedStabilizers-Hotswap-AntiShear" H 4925 7575 60  0001 C CNN
+F 2 "MX_Only:MXOnly-6U-ReversedStabilizers-NoLED-HotSwap-AntiShear" H 4925 7575 60  0001 C CNN
 F 3 "" H 4925 7575 60  0001 C CNN
 	1    5550 7600
 	1    0    0    -1  
@@ -800,10 +800,10 @@ U 1 1 5F3DE4D3
 P 2900 1700
 F 0 "J1" H 2818 1275 50  0000 C CNN
 F 1 "OLED" H 2818 1366 50  0000 C CNN
-F 2 "" H 2900 1700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2900 1700 50  0001 C CNN
 F 3 "~" H 2900 1700 50  0001 C CNN
 	1    2900 1700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D6
@@ -1575,17 +1575,6 @@ Connection ~ 9200 7000
 Wire Wire Line
 	2000 5350 2600 5350
 Connection ~ 2600 5350
-$Comp
-L china_bluepill:ChinaBluePill U1
-U 1 1 5F531D9D
-P 12400 2550
-F 0 "U1" H 12400 3365 50  0000 C CNN
-F 1 "ChinaBluePill" H 12400 3274 50  0000 C CNN
-F 2 "chinabluepill:ChinaBluePill" H 12400 2550 50  0001 C CNN
-F 3 "" H 12400 2550 50  0001 C CNN
-	1    12400 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 3000 2800 3450
 Connection ~ 2800 3450
@@ -1774,8 +1763,6 @@ Connection ~ 9400 3450
 Wire Wire Line
 	9400 3450 9400 4400
 Connection ~ 9400 4400
-Wire Wire Line
-	9400 4400 9400 5150
 Connection ~ 9400 6800
 Wire Wire Line
 	9400 6800 9400 7600
@@ -1949,8 +1936,6 @@ Connection ~ 8250 5950
 Wire Wire Line
 	8800 5950 8800 6800
 Connection ~ 8800 5950
-Wire Wire Line
-	9400 5150 9400 6800
 Connection ~ 9400 5150
 Wire Wire Line
 	9200 7300 8600 7300
@@ -1961,8 +1946,6 @@ Connection ~ 3500 7300
 Wire Wire Line
 	3500 7300 3050 7300
 Connection ~ 5500 7300
-Wire Wire Line
-	5500 7300 3500 7300
 Connection ~ 7500 7300
 Wire Wire Line
 	7500 7300 5500 7300
@@ -1994,23 +1977,185 @@ COL2
 Text GLabel 4200 3000 1    50   Input ~ 0
 COL3
 Text GLabel 4700 3000 1    50   Input ~ 0
-ROW4
+COL4
 Text GLabel 5200 3000 1    50   Input ~ 0
-ROW5
+COL5
 Text GLabel 5700 3000 1    50   Input ~ 0
-ROW6
+COL6
 Text GLabel 6200 3000 1    50   Input ~ 0
-ROW7
+COL7
 Text GLabel 6700 3000 1    50   Input ~ 0
-ROW8
+COL8
 Text GLabel 7200 3000 1    50   Input ~ 0
-ROW9
+COL9
 Text GLabel 7700 3000 1    50   Input ~ 0
-ROW10
+COL10
 Text GLabel 8250 3000 1    50   Input ~ 0
-ROW11
+COL11
 Text GLabel 8800 3000 1    50   Input ~ 0
-ROW12
+COL12
 Text GLabel 9400 3000 1    50   Input ~ 0
-ROW13
+COL13
+Text GLabel 3100 1900 3    50   Input ~ 0
+SDA
+Text GLabel 3000 1900 3    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3EA610
+P 2800 1900
+F 0 "#PWR0101" H 2800 1650 50  0001 C CNN
+F 1 "GND" H 2805 1727 50  0000 C CNN
+F 2 "" H 2800 1900 50  0001 C CNN
+F 3 "" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 13100 3000 2    50   Input ~ 0
+SDA
+Text GLabel 13100 2900 2    50   Input ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F3ECB4F
+P 2900 1900
+F 0 "#PWR0102" H 2900 1750 50  0001 C CNN
+F 1 "+3.3V" H 2915 2073 50  0000 C CNN
+F 2 "" H 2900 1900 50  0001 C CNN
+F 3 "" H 2900 1900 50  0001 C CNN
+	1    2900 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F3EECC0
+P 13100 3800
+F 0 "#PWR0103" H 13100 3550 50  0001 C CNN
+F 1 "GND" H 13105 3627 50  0000 C CNN
+F 2 "" H 13100 3800 50  0001 C CNN
+F 3 "" H 13100 3800 50  0001 C CNN
+	1    13100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F3EF628
+P 11700 3600
+F 0 "#PWR0104" H 11700 3450 50  0001 C CNN
+F 1 "+3.3V" V 11715 3728 50  0000 L CNN
+F 2 "" H 11700 3600 50  0001 C CNN
+F 3 "" H 11700 3600 50  0001 C CNN
+	1    11700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F3F15F8
+P 4950 1650
+F 0 "#PWR0105" H 4950 1400 50  0001 C CNN
+F 1 "GND" V 4955 1522 50  0000 R CNN
+F 2 "" H 4950 1650 50  0001 C CNN
+F 3 "" H 4950 1650 50  0001 C CNN
+	1    4950 1650
+	0    1    1    0   
+$EndComp
+Text GLabel 5550 1550 2    50   Input ~ 0
+SWE1
+Text GLabel 5550 1750 2    50   Input ~ 0
+SWE2
+Text GLabel 4200 6700 0    50   Input ~ 0
+SWE1
+Text GLabel 4000 7000 1    50   Input ~ 0
+SWE2
+$Comp
+L Diode:1N4148W D64
+U 1 1 5F3FC91B
+P 4000 7150
+F 0 "D64" V 4046 7070 50  0000 R CNN
+F 1 "1N4148W" V 3955 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4000 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4000 7150 50  0001 C CNN
+	1    4000 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 4400 9400 5150
+Wire Wire Line
+	3500 7300 4000 7300
+Text GLabel 11700 2000 0    50   Input ~ 0
+COL4
+Text GLabel 11700 2100 0    50   Input ~ 0
+COL5
+Text GLabel 11700 2200 0    50   Input ~ 0
+COL6
+Text GLabel 11700 2300 0    50   Input ~ 0
+COL7
+Text GLabel 11700 2400 0    50   Input ~ 0
+COL8
+Text GLabel 11700 2500 0    50   Input ~ 0
+COL9
+Text GLabel 11700 2600 0    50   Input ~ 0
+COL10
+Text GLabel 11700 2700 0    50   Input ~ 0
+COL11
+Text GLabel 13100 2000 2    50   Input ~ 0
+COL12
+Text GLabel 13100 2100 2    50   Input ~ 0
+COL13
+Text GLabel 4950 1550 0    50   Input ~ 0
+ENCA
+Text GLabel 4950 1750 0    50   Input ~ 0
+ENCB
+Text GLabel 13100 3100 2    50   Input ~ 0
+ENCA
+Text GLabel 13100 3200 2    50   Input ~ 0
+ENCB
+$Comp
+L power:+5V #PWR0106
+U 1 1 5F677427
+P 11700 3700
+F 0 "#PWR0106" H 11700 3550 50  0001 C CNN
+F 1 "+5V" V 11715 3828 50  0000 L CNN
+F 2 "" H 11700 3700 50  0001 C CNN
+F 3 "" H 11700 3700 50  0001 C CNN
+	1    11700 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11700 3200 0    50   Input ~ 0
+ROW4
+Text GLabel 11700 3300 0    50   Input ~ 0
+ROW3
+Text GLabel 13100 2200 2    50   Input ~ 0
+ROW2
+Text GLabel 13100 2300 2    50   Input ~ 0
+ROW1
+Text GLabel 13100 2400 2    50   Input ~ 0
+ROW0
+Connection ~ 4000 7300
+Wire Wire Line
+	4000 7300 5500 7300
+Wire Wire Line
+	4200 5950 4200 6700
+Connection ~ 4200 5950
+Wire Wire Line
+	9400 5150 9400 6800
+$Comp
+L china_bluepill:ChinaBluePill U1
+U 1 1 5F531D9D
+P 12400 2550
+F 0 "U1" H 12400 3365 50  0000 C CNN
+F 1 "ChinaBluePill" H 12400 3274 50  0000 C CNN
+F 2 "chinabluepill:ChinaBluePill" H 12400 2550 50  0001 C CNN
+F 3 "" H 12400 2550 50  0001 C CNN
+	1    12400 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 13100 2800 2    50   Input ~ 0
+COL3
+Text GLabel 13100 2700 2    50   Input ~ 0
+COL2
+Text GLabel 13100 2600 2    50   Input ~ 0
+COL1
+Text GLabel 13100 2500 2    50   Input ~ 0
+COL0
 $EndSCHEMATC

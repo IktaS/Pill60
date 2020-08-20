@@ -434,45 +434,45 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 125MXRATL1
 U 1 1 5F3FA899
-P 7050 6800
-F 0 "125MXRATL1" H 7083 7023 60  0000 C CNN
-F 1 "MX-NoLED" H 7083 6949 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 6425 6775 60  0001 C CNN
-F 3 "" H 6425 6775 60  0001 C CNN
-	1    7050 6800
+P 7550 6850
+F 0 "125MXRATL1" H 7583 7073 60  0000 C CNN
+F 1 "MX-NoLED" H 7583 6999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 6925 6825 60  0001 C CNN
+F 3 "" H 6925 6825 60  0001 C CNN
+	1    7550 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 125MXRGUI1
 U 1 1 5F3FA89F
-P 7550 6800
-F 0 "125MXRGUI1" H 7583 7023 60  0000 C CNN
-F 1 "MX-NoLED" H 7583 6949 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 6925 6775 60  0001 C CNN
-F 3 "" H 6925 6775 60  0001 C CNN
-	1    7550 6800
+P 8100 6850
+F 0 "125MXRGUI1" H 8133 7073 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 6999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 7475 6825 60  0001 C CNN
+F 3 "" H 7475 6825 60  0001 C CNN
+	1    8100 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 125MXRMENU1
 U 1 1 5F3FA8A5
-P 8100 6800
-F 0 "125MXRMENU1" H 8133 7023 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 6949 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 7475 6775 60  0001 C CNN
-F 3 "" H 7475 6775 60  0001 C CNN
-	1    8100 6800
+P 8650 6850
+F 0 "125MXRMENU1" H 8683 7073 60  0000 C CNN
+F 1 "MX-NoLED" H 8683 6999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 8025 6825 60  0001 C CNN
+F 3 "" H 8025 6825 60  0001 C CNN
+	1    8650 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MXBSPC1
 U 1 1 5F3D669D
-P 9100 3500
-F 0 "MXBSPC1" H 9133 3723 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 3649 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8475 3475 60  0001 C CNN
-F 3 "" H 8475 3475 60  0001 C CNN
-	1    9100 3500
+P 9250 3500
+F 0 "MXBSPC1" H 9283 3723 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 3649 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8625 3475 60  0001 C CNN
+F 3 "" H 8625 3475 60  0001 C CNN
+	1    9250 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -599,63 +599,63 @@ $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 5F40CBE5
-P 4600 7050
-F 0 "SW1" H 4600 7417 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 4600 7326 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4450 7210 50  0001 C CNN
-F 3 "~" H 4600 7310 50  0001 C CNN
-	1    4600 7050
+P 5250 1650
+F 0 "SW1" H 5250 2017 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 5250 1926 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5100 1810 50  0001 C CNN
+F 3 "~" H 5250 1910 50  0001 C CNN
+	1    5250 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 15MXBSLSH1
 U 1 1 5F53A61E
-P 9100 4450
-F 0 "15MXBSLSH1" H 9133 4673 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 4599 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 8475 4425 60  0001 C CNN
-F 3 "" H 8475 4425 60  0001 C CNN
-	1    9100 4450
+P 9250 4450
+F 0 "15MXBSLSH1" H 9283 4673 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 4599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 8625 4425 60  0001 C CNN
+F 3 "" H 8625 4425 60  0001 C CNN
+	1    9250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MXFN1
 U 1 1 5F53A62A
-P 9100 6000
-F 0 "MXFN1" H 9133 6223 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 6149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8475 5975 60  0001 C CNN
-F 3 "" H 8475 5975 60  0001 C CNN
-	1    9100 6000
+P 8650 6000
+F 0 "MXFN1" H 8683 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 8683 6149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8025 5975 60  0001 C CNN
+F 3 "" H 8025 5975 60  0001 C CNN
+	1    8650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 125MXRCTRL1
 U 1 1 5F53A630
-P 9100 6800
-F 0 "125MXRCTRL1" H 9133 7023 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 6949 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 8475 6775 60  0001 C CNN
-F 3 "" H 8475 6775 60  0001 C CNN
-	1    9100 6800
+P 9250 6850
+F 0 "125MXRCTRL1" H 9283 7073 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 6999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-Hotswap-AntiShear" H 8625 6825 60  0001 C CNN
+F 3 "" H 8625 6825 60  0001 C CNN
+	1    9250 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MXDEL1
 U 1 1 5F53A636
-P 9700 5200
-F 0 "MXDEL1" H 9733 5423 60  0000 C CNN
-F 1 "MX-NoLED" H 9733 5349 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 9075 5175 60  0001 C CNN
-F 3 "" H 9075 5175 60  0001 C CNN
-	1    9700 5200
+P 9250 5200
+F 0 "MXDEL1" H 9283 5423 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 5349 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8625 5175 60  0001 C CNN
+F 3 "" H 8625 5175 60  0001 C CNN
+	1    9250 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED 15MXRCTRL1
+L MX_Alps_Hybrid:MX-NoLED 15MXLCTRL1
 U 1 1 5F544C28
 P 2650 7600
-F 0 "15MXRCTRL1" H 2683 7823 60  0000 C CNN
+F 0 "15MXLCTRL1" H 2683 7823 60  0000 C CNN
 F 1 "MX-NoLED" H 2683 7749 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 2025 7575 60  0001 C CNN
 F 3 "" H 2025 7575 60  0001 C CNN
@@ -687,23 +687,23 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MXRGUI1
 U 1 1 5F544C40
-P 7550 7600
-F 0 "MXRGUI1" H 7583 7823 60  0000 C CNN
-F 1 "MX-NoLED" H 7583 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 6925 7575 60  0001 C CNN
-F 3 "" H 6925 7575 60  0001 C CNN
-	1    7550 7600
+P 8100 7650
+F 0 "MXRGUI1" H 8133 7873 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 7799 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 7475 7625 60  0001 C CNN
+F 3 "" H 7475 7625 60  0001 C CNN
+	1    8100 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MXRMN1
 U 1 1 5F5468B3
-P 8100 7600
-F 0 "MXRMN1" H 8133 7823 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 7475 7575 60  0001 C CNN
-F 3 "" H 7475 7575 60  0001 C CNN
-	1    8100 7600
+P 8650 7650
+F 0 "MXRMN1" H 8683 7873 60  0000 C CNN
+F 1 "MX-NoLED" H 8683 7799 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Antishear" H 8025 7625 60  0001 C CNN
+F 3 "" H 8025 7625 60  0001 C CNN
+	1    8650 7650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -720,12 +720,12 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 225MXENT1
 U 1 1 5F547193
-P 9100 5200
-F 0 "225MXENT1" H 9133 5423 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 5349 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.25U-Hotswap-AntiShear" H 8475 5175 60  0001 C CNN
-F 3 "" H 8475 5175 60  0001 C CNN
-	1    9100 5200
+P 8650 5200
+F 0 "225MXENT1" H 8683 5423 60  0000 C CNN
+F 1 "MX-NoLED" H 8683 5349 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-Hotswap-AntiShear" H 8025 5175 60  0001 C CNN
+F 3 "" H 8025 5175 60  0001 C CNN
+	1    8650 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -756,7 +756,7 @@ U 1 1 5F54D143
 P 5550 7600
 F 0 "6MXSPC1" H 5583 7823 60  0000 C CNN
 F 1 "MX-NoLED" H 5583 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6U-Centered-ReversedStabilizers-Hotswap-AntiShear" H 4925 7575 60  0001 C CNN
+F 2 "MX_Only:MXOnly-6U-ReversedStabilizers-NoLED-HotSwap-AntiShear" H 4925 7575 60  0001 C CNN
 F 3 "" H 4925 7575 60  0001 C CNN
 	1    5550 7600
 	1    0    0    -1  
@@ -775,23 +775,23 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 15MXRALT2
 U 1 1 5F5B4DD4
-P 7050 7600
-F 0 "15MXRALT2" H 7083 7823 60  0000 C CNN
-F 1 "MX-NoLED" H 7083 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 6425 7575 60  0001 C CNN
-F 3 "" H 6425 7575 60  0001 C CNN
-	1    7050 7600
+P 7550 7650
+F 0 "15MXRALT2" H 7583 7873 60  0000 C CNN
+F 1 "MX-NoLED" H 7583 7799 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 6925 7625 60  0001 C CNN
+F 3 "" H 6925 7625 60  0001 C CNN
+	1    7550 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED 15MXRCTRL2
 U 1 1 5F5D4D3B
-P 9100 7600
-F 0 "15MXRCTRL2" H 9133 7823 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 7749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 8475 7575 60  0001 C CNN
-F 3 "" H 8475 7575 60  0001 C CNN
-	1    9100 7600
+P 9250 7650
+F 0 "15MXRCTRL2" H 9283 7873 60  0000 C CNN
+F 1 "MX-NoLED" H 9283 7799 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-Hotswap-AntiShear" H 8625 7625 60  0001 C CNN
+F 3 "" H 8625 7625 60  0001 C CNN
+	1    9250 7650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -800,10 +800,10 @@ U 1 1 5F3DE4D3
 P 2900 1700
 F 0 "J1" H 2818 1275 50  0000 C CNN
 F 1 "OLED" H 2818 1366 50  0000 C CNN
-F 2 "" H 2900 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2900 1700 50  0001 C CNN
 F 3 "~" H 2900 1700 50  0001 C CNN
 	1    2900 1700
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D6
@@ -951,12 +951,12 @@ $EndComp
 $Comp
 L Diode:1N4148W D58
 U 1 1 5F4616B7
-P 9050 3800
-F 0 "D58" V 9096 3720 50  0000 R CNN
-F 1 "1N4148W" V 9005 3720 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 3625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9050 3800 50  0001 C CNN
-	1    9050 3800
+P 9200 3800
+F 0 "D58" V 9246 3720 50  0000 R CNN
+F 1 "1N4148W" V 9155 3720 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 3800 50  0001 C CNN
+	1    9200 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1094,12 +1094,12 @@ $EndComp
 $Comp
 L Diode:1N4148W D59
 U 1 1 5F47AC77
-P 9050 4750
-F 0 "D59" V 9096 4670 50  0000 R CNN
-F 1 "1N4148W" V 9005 4670 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 4575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9050 4750 50  0001 C CNN
-	1    9050 4750
+P 9200 4750
+F 0 "D59" V 9246 4670 50  0000 R CNN
+F 1 "1N4148W" V 9155 4670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 4750 50  0001 C CNN
+	1    9200 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1226,23 +1226,23 @@ $EndComp
 $Comp
 L Diode:1N4148W D63
 U 1 1 5F48F694
-P 9650 5500
-F 0 "D63" V 9696 5420 50  0000 R CNN
-F 1 "1N4148W" V 9605 5420 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9650 5325 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9650 5500 50  0001 C CNN
-	1    9650 5500
+P 9200 5500
+F 0 "D63" V 9246 5420 50  0000 R CNN
+F 1 "1N4148W" V 9155 5420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 5500 50  0001 C CNN
+	1    9200 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D60
 U 1 1 5F48F69A
-P 9050 5500
-F 0 "D60" V 9096 5420 50  0000 R CNN
-F 1 "1N4148W" V 9005 5420 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 5325 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9050 5500 50  0001 C CNN
-	1    9050 5500
+P 8600 5500
+F 0 "D60" V 8646 5420 50  0000 R CNN
+F 1 "1N4148W" V 8555 5420 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 5325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 5500 50  0001 C CNN
+	1    8600 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1380,12 +1380,12 @@ $EndComp
 $Comp
 L Diode:1N4148W D61
 U 1 1 5F4AA70C
-P 9050 6300
-F 0 "D61" V 9096 6220 50  0000 R CNN
-F 1 "1N4148W" V 9005 6220 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 6125 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9050 6300 50  0001 C CNN
-	1    9050 6300
+P 8600 6300
+F 0 "D61" V 8646 6220 50  0000 R CNN
+F 1 "1N4148W" V 8555 6220 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 6125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 6300 50  0001 C CNN
+	1    8600 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1435,45 +1435,45 @@ $EndComp
 $Comp
 L Diode:1N4148W D45
 U 1 1 5F4C6337
-P 7000 7100
-F 0 "D45" V 7046 7020 50  0000 R CNN
-F 1 "1N4148W" V 6955 7020 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 7000 6925 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7000 7100 50  0001 C CNN
-	1    7000 7100
+P 7500 7150
+F 0 "D45" V 7546 7070 50  0000 R CNN
+F 1 "1N4148W" V 7455 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7500 7150 50  0001 C CNN
+	1    7500 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D50
 U 1 1 5F4C633D
-P 7500 7100
-F 0 "D50" V 7546 7020 50  0000 R CNN
-F 1 "1N4148W" V 7455 7020 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 7500 6925 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7500 7100 50  0001 C CNN
-	1    7500 7100
+P 8050 7150
+F 0 "D50" V 8096 7070 50  0000 R CNN
+F 1 "1N4148W" V 8005 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 7150 50  0001 C CNN
+	1    8050 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D55
 U 1 1 5F4C6343
-P 8050 7100
-F 0 "D55" V 8096 7020 50  0000 R CNN
-F 1 "1N4148W" V 8005 7020 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 8050 6925 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8050 7100 50  0001 C CNN
-	1    8050 7100
+P 8600 7150
+F 0 "D55" V 8646 7070 50  0000 R CNN
+F 1 "1N4148W" V 8555 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8600 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 7150 50  0001 C CNN
+	1    8600 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D62
 U 1 1 5F4C6349
-P 9050 7100
-F 0 "D62" V 9096 7020 50  0000 R CNN
-F 1 "1N4148W" V 9005 7020 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 9050 6925 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9050 7100 50  0001 C CNN
-	1    9050 7100
+P 9200 7150
+F 0 "D62" V 9246 7070 50  0000 R CNN
+F 1 "1N4148W" V 9155 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9200 7150 50  0001 C CNN
+	1    9200 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1549,36 +1549,596 @@ Wire Wire Line
 	5300 7000 5500 7000
 Connection ~ 5500 7000
 Wire Wire Line
-	7000 7750 6800 7750
+	7500 7800 7300 7800
 Wire Wire Line
-	6800 6950 7000 6950
+	7300 7000 7500 7000
 Wire Wire Line
-	6800 6950 6800 7750
-Connection ~ 7000 6950
+	7300 7000 7300 7800
+Connection ~ 7500 7000
 Wire Wire Line
-	7500 7750 7300 7750
+	8050 7800 7850 7800
 Wire Wire Line
-	7300 7750 7300 6950
+	7850 7000 8050 7000
+Connection ~ 8050 7000
 Wire Wire Line
-	7300 6950 7500 6950
-Connection ~ 7500 6950
+	8600 7800 8400 7800
 Wire Wire Line
-	8050 7750 7850 7750
+	8400 7800 8400 7000
 Wire Wire Line
-	7850 7750 7850 6950
+	8400 7000 8600 7000
+Connection ~ 8600 7000
 Wire Wire Line
-	7850 6950 8050 6950
-Connection ~ 8050 6950
+	9200 7800 8950 7800
 Wire Wire Line
-	9050 7750 8800 7750
-Wire Wire Line
-	8800 7750 8800 6950
-Wire Wire Line
-	8800 6950 9050 6950
-Connection ~ 9050 6950
+	8950 7000 9200 7000
+Connection ~ 9200 7000
 Wire Wire Line
 	2000 5350 2600 5350
 Connection ~ 2600 5350
+Wire Wire Line
+	2800 3000 2800 3450
+Connection ~ 2800 3450
+Wire Wire Line
+	2800 3450 2800 4400
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4400 2800 5150
+Connection ~ 2800 5150
+Wire Wire Line
+	2800 5150 2800 5950
+Connection ~ 2800 5950
+Wire Wire Line
+	2800 5950 2800 6800
+Connection ~ 2800 6800
+Wire Wire Line
+	2800 6800 2800 7550
+Wire Wire Line
+	3250 3000 3250 3450
+Connection ~ 3250 3450
+Wire Wire Line
+	3250 3450 3250 4400
+Connection ~ 3250 4400
+Wire Wire Line
+	3250 4400 3250 5150
+Connection ~ 3250 5150
+Wire Wire Line
+	3250 5150 3250 5950
+Connection ~ 3250 5950
+Wire Wire Line
+	3250 5950 3250 6800
+Connection ~ 3250 6800
+Wire Wire Line
+	3250 6800 3250 7550
+Wire Wire Line
+	3700 3000 3700 3450
+Connection ~ 3700 3450
+Wire Wire Line
+	3700 3450 3700 4400
+Connection ~ 3700 4400
+Wire Wire Line
+	3700 4400 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3700 5150 3700 5950
+Connection ~ 3700 5950
+Wire Wire Line
+	3700 5950 3700 6800
+Connection ~ 3700 6800
+Wire Wire Line
+	3700 6800 3700 7550
+Wire Wire Line
+	4200 3000 4200 3450
+Connection ~ 4200 3450
+Wire Wire Line
+	4200 3450 4200 4400
+Connection ~ 4200 4400
+Wire Wire Line
+	4200 4400 4200 5150
+Connection ~ 4200 5150
+Wire Wire Line
+	4200 5150 4200 5950
+Wire Wire Line
+	4700 3000 4700 3450
+Connection ~ 4700 3450
+Wire Wire Line
+	4700 3450 4700 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	4700 4400 4700 5150
+Connection ~ 4700 5150
+Wire Wire Line
+	4700 5150 4700 5950
+Wire Wire Line
+	5200 3000 5200 3450
+Connection ~ 5200 3450
+Wire Wire Line
+	5200 3450 5200 4400
+Connection ~ 5200 4400
+Wire Wire Line
+	5200 4400 5200 5150
+Connection ~ 5200 5150
+Wire Wire Line
+	5200 5150 5200 5950
+Wire Wire Line
+	5700 3000 5700 3450
+Connection ~ 5700 3450
+Wire Wire Line
+	5700 3450 5700 4400
+Connection ~ 5700 4400
+Wire Wire Line
+	5700 4400 5700 5150
+Connection ~ 5700 5150
+Wire Wire Line
+	5700 5150 5700 5950
+Connection ~ 5700 5950
+Wire Wire Line
+	5700 5950 5700 6800
+Connection ~ 5700 6800
+Wire Wire Line
+	5700 6800 5700 7550
+Wire Wire Line
+	6200 3000 6200 3450
+Connection ~ 6200 3450
+Wire Wire Line
+	6200 3450 6200 4400
+Connection ~ 6200 4400
+Wire Wire Line
+	6200 4400 6200 5150
+Connection ~ 6200 5150
+Wire Wire Line
+	6200 5150 6200 5950
+Wire Wire Line
+	6700 3000 6700 3450
+Connection ~ 6700 3450
+Wire Wire Line
+	6700 3450 6700 4400
+Connection ~ 6700 4400
+Wire Wire Line
+	6700 4400 6700 5150
+Connection ~ 6700 5150
+Wire Wire Line
+	6700 5150 6700 5950
+Wire Wire Line
+	2200 5150 2800 5150
+Wire Wire Line
+	7200 5950 7200 5150
+Connection ~ 7200 3450
+Wire Wire Line
+	7200 3450 7200 3000
+Connection ~ 7200 4400
+Wire Wire Line
+	7200 4400 7200 3450
+Connection ~ 7200 5150
+Wire Wire Line
+	7200 5150 7200 4400
+Wire Wire Line
+	7700 3000 7700 3450
+Connection ~ 7700 3450
+Wire Wire Line
+	7700 3450 7700 4400
+Connection ~ 7700 4400
+Wire Wire Line
+	7700 4400 7700 5150
+Connection ~ 7700 5150
+Wire Wire Line
+	7700 5150 7700 5950
+Connection ~ 7700 6800
+Wire Wire Line
+	7700 6800 7700 7600
+Wire Wire Line
+	8250 3000 8250 3450
+Connection ~ 8250 3450
+Wire Wire Line
+	8250 3450 8250 4400
+Connection ~ 8250 4400
+Wire Wire Line
+	8250 4400 8250 5150
+Connection ~ 8250 5150
+Wire Wire Line
+	8250 5150 8250 5950
+Connection ~ 8250 6800
+Wire Wire Line
+	8250 6800 8250 7600
+Wire Wire Line
+	7850 7000 7850 7800
+Wire Wire Line
+	8950 7000 8950 7800
+Wire Wire Line
+	8800 3000 8800 3450
+Connection ~ 8800 3450
+Wire Wire Line
+	8800 3450 8800 4400
+Connection ~ 8800 4400
+Wire Wire Line
+	8800 4400 8800 5150
+Connection ~ 8800 5150
+Wire Wire Line
+	8800 5150 8800 5950
+Connection ~ 8800 6800
+Wire Wire Line
+	8800 6800 8800 7600
+Wire Wire Line
+	9400 3000 9400 3450
+Connection ~ 9400 3450
+Wire Wire Line
+	9400 3450 9400 4400
+Connection ~ 9400 4400
+Connection ~ 9400 6800
+Wire Wire Line
+	9400 6800 9400 7600
+Wire Wire Line
+	9200 3950 8600 3950
+Connection ~ 2600 3950
+Wire Wire Line
+	2600 3950 1500 3950
+Connection ~ 3050 3950
+Wire Wire Line
+	3050 3950 2600 3950
+Connection ~ 3500 3950
+Wire Wire Line
+	3500 3950 3050 3950
+Connection ~ 4000 3950
+Wire Wire Line
+	4000 3950 3500 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	4500 3950 4000 3950
+Connection ~ 5000 3950
+Wire Wire Line
+	5000 3950 4500 3950
+Connection ~ 5500 3950
+Wire Wire Line
+	5500 3950 5000 3950
+Connection ~ 6000 3950
+Wire Wire Line
+	6000 3950 5500 3950
+Connection ~ 6500 3950
+Wire Wire Line
+	6500 3950 6000 3950
+Connection ~ 7000 3950
+Wire Wire Line
+	7000 3950 6500 3950
+Connection ~ 7500 3950
+Wire Wire Line
+	7500 3950 7000 3950
+Connection ~ 8050 3950
+Wire Wire Line
+	8050 3950 7500 3950
+Connection ~ 8600 3950
+Wire Wire Line
+	8600 3950 8050 3950
+Wire Wire Line
+	1500 4900 2600 4900
+Connection ~ 2600 4900
+Wire Wire Line
+	2600 4900 3050 4900
+Connection ~ 3050 4900
+Wire Wire Line
+	3050 4900 3500 4900
+Connection ~ 3500 4900
+Wire Wire Line
+	3500 4900 4000 4900
+Connection ~ 4000 4900
+Wire Wire Line
+	4000 4900 4500 4900
+Connection ~ 4500 4900
+Wire Wire Line
+	4500 4900 5000 4900
+Connection ~ 5000 4900
+Wire Wire Line
+	5000 4900 5500 4900
+Connection ~ 5500 4900
+Wire Wire Line
+	5500 4900 6000 4900
+Connection ~ 6000 4900
+Wire Wire Line
+	6000 4900 6500 4900
+Connection ~ 6500 4900
+Wire Wire Line
+	6500 4900 7000 4900
+Connection ~ 7000 4900
+Wire Wire Line
+	7000 4900 7500 4900
+Connection ~ 7500 4900
+Wire Wire Line
+	7500 4900 8050 4900
+Connection ~ 8050 4900
+Wire Wire Line
+	8050 4900 8600 4900
+Connection ~ 8600 4900
+Wire Wire Line
+	8600 4900 9200 4900
+Wire Wire Line
+	1500 5650 2600 5650
+Connection ~ 2600 5650
+Wire Wire Line
+	2600 5650 3050 5650
+Connection ~ 3050 5650
+Wire Wire Line
+	3050 5650 3500 5650
+Connection ~ 3500 5650
+Wire Wire Line
+	3500 5650 4000 5650
+Connection ~ 4000 5650
+Wire Wire Line
+	4000 5650 4500 5650
+Connection ~ 4500 5650
+Wire Wire Line
+	4500 5650 5000 5650
+Connection ~ 5000 5650
+Wire Wire Line
+	5000 5650 5500 5650
+Connection ~ 5500 5650
+Wire Wire Line
+	5500 5650 6000 5650
+Connection ~ 6000 5650
+Wire Wire Line
+	6000 5650 6500 5650
+Connection ~ 6500 5650
+Wire Wire Line
+	6500 5650 7000 5650
+Connection ~ 7000 5650
+Wire Wire Line
+	7000 5650 7500 5650
+Connection ~ 7500 5650
+Wire Wire Line
+	7500 5650 8050 5650
+Connection ~ 8050 5650
+Wire Wire Line
+	8050 5650 8600 5650
+Connection ~ 8600 5650
+Wire Wire Line
+	8600 5650 9200 5650
+Wire Wire Line
+	1500 6450 2600 6450
+Connection ~ 2600 6450
+Wire Wire Line
+	2600 6450 3050 6450
+Connection ~ 3050 6450
+Wire Wire Line
+	3050 6450 3500 6450
+Connection ~ 3500 6450
+Wire Wire Line
+	3500 6450 4000 6450
+Connection ~ 4000 6450
+Wire Wire Line
+	4000 6450 4500 6450
+Connection ~ 4500 6450
+Wire Wire Line
+	4500 6450 5000 6450
+Connection ~ 5000 6450
+Wire Wire Line
+	5000 6450 5500 6450
+Connection ~ 5500 6450
+Wire Wire Line
+	5500 6450 6000 6450
+Connection ~ 6000 6450
+Wire Wire Line
+	6000 6450 6500 6450
+Connection ~ 6500 6450
+Wire Wire Line
+	6500 6450 7000 6450
+Connection ~ 7000 6450
+Wire Wire Line
+	7000 6450 7500 6450
+Connection ~ 7500 6450
+Wire Wire Line
+	7500 6450 8050 6450
+Connection ~ 8050 6450
+Wire Wire Line
+	8050 6450 8600 6450
+Wire Wire Line
+	7700 5950 7700 6800
+Connection ~ 7700 5950
+Wire Wire Line
+	8250 5950 8250 6800
+Connection ~ 8250 5950
+Wire Wire Line
+	8800 5950 8800 6800
+Connection ~ 8800 5950
+Connection ~ 9400 5150
+Wire Wire Line
+	9200 7300 8600 7300
+Connection ~ 3050 7300
+Wire Wire Line
+	3050 7300 2600 7300
+Connection ~ 3500 7300
+Wire Wire Line
+	3500 7300 3050 7300
+Connection ~ 5500 7300
+Connection ~ 7500 7300
+Wire Wire Line
+	7500 7300 5500 7300
+Connection ~ 8050 7300
+Wire Wire Line
+	8050 7300 7500 7300
+Connection ~ 8600 7300
+Wire Wire Line
+	8600 7300 8050 7300
+Wire Wire Line
+	2600 7300 1500 7300
+Connection ~ 2600 7300
+Text GLabel 1500 3950 0    50   Input ~ 0
+ROW0
+Text GLabel 1500 4900 0    50   Input ~ 0
+ROW1
+Text GLabel 1500 5650 0    50   Input ~ 0
+ROW2
+Text GLabel 1500 6450 0    50   Input ~ 0
+ROW3
+Text GLabel 1500 7300 0    50   Input ~ 0
+ROW4
+Text GLabel 2800 3000 1    50   Input ~ 0
+COL0
+Text GLabel 3250 3000 1    50   Input ~ 0
+COL1
+Text GLabel 3700 3000 1    50   Input ~ 0
+COL2
+Text GLabel 4200 3000 1    50   Input ~ 0
+COL3
+Text GLabel 4700 3000 1    50   Input ~ 0
+COL4
+Text GLabel 5200 3000 1    50   Input ~ 0
+COL5
+Text GLabel 5700 3000 1    50   Input ~ 0
+COL6
+Text GLabel 6200 3000 1    50   Input ~ 0
+COL7
+Text GLabel 6700 3000 1    50   Input ~ 0
+COL8
+Text GLabel 7200 3000 1    50   Input ~ 0
+COL9
+Text GLabel 7700 3000 1    50   Input ~ 0
+COL10
+Text GLabel 8250 3000 1    50   Input ~ 0
+COL11
+Text GLabel 8800 3000 1    50   Input ~ 0
+COL12
+Text GLabel 9400 3000 1    50   Input ~ 0
+COL13
+Text GLabel 3100 1900 3    50   Input ~ 0
+SDA
+Text GLabel 3000 1900 3    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3EA610
+P 2800 1900
+F 0 "#PWR0101" H 2800 1650 50  0001 C CNN
+F 1 "GND" H 2805 1727 50  0000 C CNN
+F 2 "" H 2800 1900 50  0001 C CNN
+F 3 "" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 13100 3000 2    50   Input ~ 0
+SDA
+Text GLabel 13100 2900 2    50   Input ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F3ECB4F
+P 2900 1900
+F 0 "#PWR0102" H 2900 1750 50  0001 C CNN
+F 1 "+3.3V" H 2915 2073 50  0000 C CNN
+F 2 "" H 2900 1900 50  0001 C CNN
+F 3 "" H 2900 1900 50  0001 C CNN
+	1    2900 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F3EECC0
+P 13100 3800
+F 0 "#PWR0103" H 13100 3550 50  0001 C CNN
+F 1 "GND" H 13105 3627 50  0000 C CNN
+F 2 "" H 13100 3800 50  0001 C CNN
+F 3 "" H 13100 3800 50  0001 C CNN
+	1    13100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F3EF628
+P 11700 3600
+F 0 "#PWR0104" H 11700 3450 50  0001 C CNN
+F 1 "+3.3V" V 11715 3728 50  0000 L CNN
+F 2 "" H 11700 3600 50  0001 C CNN
+F 3 "" H 11700 3600 50  0001 C CNN
+	1    11700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F3F15F8
+P 4950 1650
+F 0 "#PWR0105" H 4950 1400 50  0001 C CNN
+F 1 "GND" V 4955 1522 50  0000 R CNN
+F 2 "" H 4950 1650 50  0001 C CNN
+F 3 "" H 4950 1650 50  0001 C CNN
+	1    4950 1650
+	0    1    1    0   
+$EndComp
+Text GLabel 5550 1550 2    50   Input ~ 0
+SWE1
+Text GLabel 5550 1750 2    50   Input ~ 0
+SWE2
+Text GLabel 4200 6700 0    50   Input ~ 0
+SWE1
+Text GLabel 4000 7000 1    50   Input ~ 0
+SWE2
+$Comp
+L Diode:1N4148W D64
+U 1 1 5F3FC91B
+P 4000 7150
+F 0 "D64" V 4046 7070 50  0000 R CNN
+F 1 "1N4148W" V 3955 7070 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4000 6975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4000 7150 50  0001 C CNN
+	1    4000 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 4400 9400 5150
+Wire Wire Line
+	3500 7300 4000 7300
+Text GLabel 11700 2000 0    50   Input ~ 0
+COL4
+Text GLabel 11700 2100 0    50   Input ~ 0
+COL5
+Text GLabel 11700 2200 0    50   Input ~ 0
+COL6
+Text GLabel 11700 2300 0    50   Input ~ 0
+COL7
+Text GLabel 11700 2400 0    50   Input ~ 0
+COL8
+Text GLabel 11700 2500 0    50   Input ~ 0
+COL9
+Text GLabel 11700 2600 0    50   Input ~ 0
+COL10
+Text GLabel 11700 2700 0    50   Input ~ 0
+COL11
+Text GLabel 13100 2000 2    50   Input ~ 0
+COL12
+Text GLabel 13100 2100 2    50   Input ~ 0
+COL13
+Text GLabel 4950 1550 0    50   Input ~ 0
+ENCA
+Text GLabel 4950 1750 0    50   Input ~ 0
+ENCB
+Text GLabel 13100 3100 2    50   Input ~ 0
+ENCA
+Text GLabel 13100 3200 2    50   Input ~ 0
+ENCB
+$Comp
+L power:+5V #PWR0106
+U 1 1 5F677427
+P 11700 3700
+F 0 "#PWR0106" H 11700 3550 50  0001 C CNN
+F 1 "+5V" V 11715 3828 50  0000 L CNN
+F 2 "" H 11700 3700 50  0001 C CNN
+F 3 "" H 11700 3700 50  0001 C CNN
+	1    11700 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11700 3200 0    50   Input ~ 0
+ROW4
+Text GLabel 11700 3300 0    50   Input ~ 0
+ROW3
+Text GLabel 13100 2200 2    50   Input ~ 0
+ROW2
+Text GLabel 13100 2300 2    50   Input ~ 0
+ROW1
+Text GLabel 13100 2400 2    50   Input ~ 0
+ROW0
+Connection ~ 4000 7300
+Wire Wire Line
+	4000 7300 5500 7300
+Wire Wire Line
+	4200 5950 4200 6700
+Connection ~ 4200 5950
+Wire Wire Line
+	9400 5150 9400 6800
 $Comp
 L china_bluepill:ChinaBluePill U1
 U 1 1 5F531D9D
@@ -1590,4 +2150,12 @@ F 3 "" H 12400 2550 50  0001 C CNN
 	1    12400 2550
 	1    0    0    -1  
 $EndComp
+Text GLabel 13100 2800 2    50   Input ~ 0
+COL3
+Text GLabel 13100 2700 2    50   Input ~ 0
+COL2
+Text GLabel 13100 2600 2    50   Input ~ 0
+COL1
+Text GLabel 13100 2500 2    50   Input ~ 0
+COL0
 $EndSCHEMATC
