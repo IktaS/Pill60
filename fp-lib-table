@@ -3,4 +3,5 @@
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name BluePill_breakouts)(type KiCad)(uri ${KIPRJMOD}/kicad-library/BluePill_breakouts.pretty)(options "")(descr ""))
   (lib (name chinabluepill)(type KiCad)(uri ${KIPRJMOD}/kicad-library/chinabluepill.pretty)(options "")(descr ""))
+  (lib (name Art)(type KiCad)(uri ${KIPRJMOD}/Art)(options "")(descr ""))
 )
