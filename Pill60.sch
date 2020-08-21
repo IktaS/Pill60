@@ -2549,4 +2549,37 @@ Connection ~ 15200 7300
 Connection ~ 15200 7050
 Wire Wire Line
 	10300 8150 13300 8150
+$Comp
+L keebio:Hole H8
+U 1 1 5F429E69
+P 14650 4400
+F 0 "H8" H 14836 4453 60  0000 L CNN
+F 1 "Hole" H 14836 4347 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 14650 4400 60  0001 C CNN
+F 3 "" H 14650 4400 60  0001 C CNN
+	1    14650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Hole H9
+U 1 1 5F42A107
+P 14750 3800
+F 0 "H9" H 14936 3853 60  0000 L CNN
+F 1 "Hole" H 14936 3747 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 14750 3800 60  0001 C CNN
+F 3 "" H 14750 3800 60  0001 C CNN
+	1    14750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Hole H10
+U 1 1 5F42A374
+P 14850 3350
+F 0 "H10" H 15036 3403 60  0000 L CNN
+F 1 "Hole" H 15036 3297 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 14850 3350 60  0001 C CNN
+F 3 "" H 14850 3350 60  0001 C CNN
+	1    14850 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
