@@ -2005,9 +2005,9 @@ Text GLabel 4950 1550 0    50   Input ~ 0
 ENCA
 Text GLabel 4950 1750 0    50   Input ~ 0
 ENCB
-Text GLabel 13100 3100 2    50   Input ~ 0
-ENCA
 Text GLabel 13100 3200 2    50   Input ~ 0
+ENCA
+Text GLabel 13100 3100 2    50   Input ~ 0
 ENCB
 $Comp
 L power:+5V #PWR0106
@@ -2020,13 +2020,13 @@ F 3 "" H 11700 3700 50  0001 C CNN
 	1    11700 3700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 11700 3200 0    50   Input ~ 0
+Text GLabel 13100 2400 2    50   Input ~ 0
 ROW4
-Text GLabel 11700 3300 0    50   Input ~ 0
+Text GLabel 11700 3200 0    50   Input ~ 0
 ROW3
-Text GLabel 13100 2200 2    50   Input ~ 0
+Text GLabel 11700 3300 0    50   Input ~ 0
 ROW2
-Text GLabel 13100 2300 2    50   Input ~ 0
+Text GLabel 13100 2200 2    50   Input ~ 0
 ROW1
 $Comp
 L china_bluepill:ChinaBluePill U1
@@ -2039,11 +2039,11 @@ F 3 "" H 12400 2550 50  0001 C CNN
 	1    12400 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 13100 2800 2    50   Input ~ 0
+Text GLabel 13100 2500 2    50   Input ~ 0
 COL3
-Text GLabel 13100 2700 2    50   Input ~ 0
+Text GLabel 13100 2800 2    50   Input ~ 0
 COL2
-Text GLabel 13100 2600 2    50   Input ~ 0
+Text GLabel 13100 2700 2    50   Input ~ 0
 COL1
 Connection ~ 4200 5950
 Wire Wire Line
@@ -2241,9 +2241,9 @@ NoConn ~ 13100 3400
 NoConn ~ 13100 3500
 NoConn ~ 13100 3600
 NoConn ~ 13100 3700
-Text GLabel 13100 2500 2    50   Input ~ 0
+Text GLabel 13100 2600 2    50   Input ~ 0
 COL0
-Text GLabel 13100 2400 2    50   Input ~ 0
+Text GLabel 13100 2300 2    50   Input ~ 0
 ROW0
 Text GLabel 11700 2900 0    50   Input ~ 0
 LED
