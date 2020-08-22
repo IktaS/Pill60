@@ -2034,7 +2034,7 @@ U 1 1 5F531D9D
 P 12400 2550
 F 0 "U1" H 12400 3365 50  0000 C CNN
 F 1 "ChinaBluePill" H 12400 3274 50  0000 C CNN
-F 2 "chinabluepill:ChinaBluePill" H 12400 2550 50  0001 C CNN
+F 2 "chinabluepill:ChinaBluePill_SneakyFootprint" H 12400 2550 50  0001 C CNN
 F 3 "" H 12400 2550 50  0001 C CNN
 	1    12400 2550
 	1    0    0    -1  
