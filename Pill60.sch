@@ -1929,9 +1929,9 @@ F 3 "" H 2800 1900 50  0001 C CNN
 	1    2800 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 13100 3000 2    50   Input ~ 0
+Text GLabel 13100 2600 2    50   Input ~ 0
 SDA
-Text GLabel 13100 2900 2    50   Input ~ 0
+Text GLabel 13100 2500 2    50   Input ~ 0
 SCL
 $Comp
 L power:+3.3V #PWR0102
@@ -1981,7 +1981,7 @@ Text GLabel 5550 1550 2    50   Input ~ 0
 SWE1
 Text GLabel 5550 1750 2    50   Input ~ 0
 SWE2
-Text GLabel 11700 2000 0    50   Input ~ 0
+Text GLabel 11700 3000 0    50   Input ~ 0
 COL4
 Text GLabel 11700 2100 0    50   Input ~ 0
 COL5
@@ -2005,9 +2005,9 @@ Text GLabel 4950 1550 0    50   Input ~ 0
 ENCA
 Text GLabel 4950 1750 0    50   Input ~ 0
 ENCB
-Text GLabel 13100 3200 2    50   Input ~ 0
+Text GLabel 13100 2800 2    50   Input ~ 0
 ENCA
-Text GLabel 13100 3100 2    50   Input ~ 0
+Text GLabel 13100 2700 2    50   Input ~ 0
 ENCB
 $Comp
 L power:+5V #PWR0106
@@ -2039,11 +2039,11 @@ F 3 "" H 12400 2550 50  0001 C CNN
 	1    12400 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 13100 2500 2    50   Input ~ 0
+Text GLabel 11700 2800 0    50   Input ~ 0
 COL3
-Text GLabel 13100 2800 2    50   Input ~ 0
+Text GLabel 13100 2900 2    50   Input ~ 0
 COL2
-Text GLabel 13100 2700 2    50   Input ~ 0
+Text GLabel 13100 3000 2    50   Input ~ 0
 COL1
 Connection ~ 4200 5950
 Wire Wire Line
@@ -2231,7 +2231,6 @@ F 3 "" H 14400 4850 60  0001 C CNN
 	1    14400 4850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11700 2800
 NoConn ~ 11700 3000
 NoConn ~ 11700 3100
 NoConn ~ 11700 3400
@@ -2241,7 +2240,7 @@ NoConn ~ 13100 3400
 NoConn ~ 13100 3500
 NoConn ~ 13100 3600
 NoConn ~ 13100 3700
-Text GLabel 13100 2600 2    50   Input ~ 0
+Text GLabel 11700 3100 0    50   Input ~ 0
 COL0
 Text GLabel 13100 2300 2    50   Input ~ 0
 ROW0
