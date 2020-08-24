@@ -4,6 +4,9 @@ layout is [this](http://www.keyboard-layout-editor.com/##@_name=Pill60&author=Ik
 
 This 60% keyboard that uses BluePill or STM32F103C8T6.This is my first board, Any feedback is appreciated. Contact me on Discord Ikta#8871.
 
+## Update
+Modified the pinout diagram so that it doesn't crash with Black Pill or STM32F4xxx line of board, the pinout obviously will be different, but because all uses the a valid pin even with Black Pill / Blue Pill configuration, pin matrix diagram can be modified in firmware level.
+
 ![Front Side view](./images/FrontSide.png)
 ![Back Side view](./images/BackSide.png)
 ![Wire view](./images/Wires.png)
