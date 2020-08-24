@@ -2022,7 +2022,7 @@ F 3 "" H 11700 3700 50  0001 C CNN
 $EndComp
 Text GLabel 13100 2400 2    50   Input ~ 0
 ROW4
-Text GLabel 11700 3200 0    50   Input ~ 0
+Text GLabel 13100 3200 2    50   Input ~ 0
 ROW3
 Text GLabel 11700 3300 0    50   Input ~ 0
 ROW2
@@ -2039,7 +2039,7 @@ F 3 "" H 12400 2550 50  0001 C CNN
 	1    12400 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 11700 2800 0    50   Input ~ 0
+Text GLabel 13100 3400 2    50   Input ~ 0
 COL3
 Text GLabel 13100 2900 2    50   Input ~ 0
 COL2
@@ -2231,20 +2231,16 @@ F 3 "" H 14400 4850 60  0001 C CNN
 	1    14400 4850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11700 3000
-NoConn ~ 11700 3100
 NoConn ~ 11700 3400
 NoConn ~ 11700 3500
-NoConn ~ 13100 3300
-NoConn ~ 13100 3400
 NoConn ~ 13100 3500
 NoConn ~ 13100 3600
 NoConn ~ 13100 3700
-Text GLabel 11700 3100 0    50   Input ~ 0
+Text GLabel 11700 2800 0    50   Input ~ 0
 COL0
 Text GLabel 13100 2300 2    50   Input ~ 0
 ROW0
-Text GLabel 11700 2900 0    50   Input ~ 0
+Text GLabel 13100 3300 2    50   Input ~ 0
 LED
 $Comp
 L LED:SK6812MINI L7
@@ -2581,4 +2577,9 @@ F 3 "" H 14850 3350 60  0001 C CNN
 	1    14850 3350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 11700 2000
+NoConn ~ 13100 3100
+NoConn ~ 11700 2900
+NoConn ~ 11700 3100
+NoConn ~ 11700 3200
 $EndSCHEMATC
