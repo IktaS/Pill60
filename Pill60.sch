@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -2582,4 +2582,10 @@ NoConn ~ 13100 3100
 NoConn ~ 11700 2900
 NoConn ~ 11700 3100
 NoConn ~ 11700 3200
+$Sheet
+S 5700 8950 3700 1750
+U 5F4C413B
+F0 "LED-Matrix" 40
+F1 "LED-Matrix.sch" 40
+$EndSheet
 $EndSCHEMATC
