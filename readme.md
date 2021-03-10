@@ -10,6 +10,9 @@ Firmware is currently waiting for merge to QMK Firmware Repository, but you can 
 ## Update
 Modified the pinout diagram so that it doesn't crash with Black Pill or STM32F4xxx line of board, the pinout obviously will be different, but because all uses the a valid pin even with Black Pill / Blue Pill configuration, pin matrix diagram can be modified in firmware level.
 
+## Caution
+You might need to use a jumper for a more reliable connector in the caps/control key. I guess the pad is a bit too small for it to keep holding on with constant pressure of being pressed hard.
+
 ![Front Side view](./images/FrontSide.png)
 ![Back Side view](./images/BackSide.png)
 ![Wire view](./images/Wires.png)
