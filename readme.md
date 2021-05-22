@@ -4,8 +4,14 @@ layout is [this](http://www.keyboard-layout-editor.com/##@_name=Pill60&author=Ik
 
 This 60% keyboard that uses BluePill or STM32F103C8T6.This is my first board, Any feedback is appreciated. Contact me on Discord Ikta#8871.
 
+## Firmware
+Firmware is currently waiting for merge to QMK Firmware Repository, but you can still access it from my [fork](https://github.com/IktaS/qmk_firmware/tree/pill60/keyboards/handwired/pill60)
+
 ## Update
 Modified the pinout diagram so that it doesn't crash with Black Pill or STM32F4xxx line of board, the pinout obviously will be different, but because all uses the a valid pin even with Black Pill / Blue Pill configuration, pin matrix diagram can be modified in firmware level.
+
+## Caution
+You might need to use a jumper for a more reliable connector in the caps/control key. I guess the pad is a bit too small for it to keep holding on with constant pressure of being pressed hard.
 
 ![Front Side view](./images/FrontSide.png)
 ![Back Side view](./images/BackSide.png)
